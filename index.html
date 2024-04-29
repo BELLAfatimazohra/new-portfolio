@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="script.js" defer></script>
+
+  <!-- Your name here -->
+  <title>BELLA Fatima Zohra's Portfolio</title>
+</head>
+
+<body>
+
+  <script>
+    const theme = localStorage.getItem("theme") || "dark";
+    document.body.classList.add(theme);
+  </script>
+
+  <header class="header">
+
+    <div class="menu-btn-container">
+      <div class="container">
+        <button type="button" class="menu-btn">Menu</button>
+      </div>
+    </div>
+
+    <nav class="nav hidden">
+      <ol class="nav-items">
+        <li class="nav-item"><a href="#">Home</a></li>
+        <li class="nav-item"><a href="#projects">My Projects</a></li>
+        <li class="nav-item"><a href="#skills">My Skills</a></li>
+        <li class="nav-item"><a href="#about">About Me</a></li>
+        <li class="nav-item">
+
+          <a href="#contact" data-focused="last-focused">Contact</a>
+        </li>
+      </ol>
+    </nav>
+
+    <div class="container">
+      <div class="header-textbox">
+        <!-- Replace with your name and job title -->
+        <h1 class="h1">
+          <span>Hi, I'm BELLA Fatima Zohra <i class="fas fa-graduation-cap custom-icon"></i></span>
+          <span>Computer Science Student</span>
+        </h1>
+
+        <!-- Add a small introductory paragraph about yourself -->
+        <p class="header-text">
+          a dedicated third-year computer engineering student at ENSA
+          HOCEIMA. With a passion for technology and a strong academic background, I am eager to apply my
+          skills and knowledge in a real-world setting through an internship opportunity.
+        </p>
+        <div class="img">
+          <img src="cv.jpg" alt="">
+        </div>
+        <div class="home-sci">
+          <a href="https://github.com/"><i class='bx bxl-github'></i></a>
+          <a
+            href="https://www.linkedin.com/in/fatima-zohra-bella-556990296?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B7W5BYycnRmCRYavdfumstA%3D%3D"><i
+              class='bx bxl-linkedin'></i></a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+
+
+
+    <!-- I write blog posts on dev.to at https://dev.to/devsyedmohsin. I have linked my articles accordingly, so please update the article title, description, and link accordingly. For example, if you write an article on Medium, link your article to Medium. Also, don't forget to update the reaction count. -->
+
+    <section id="projects">
+      <div class="container">
+        <h2 class="h2" id="blog">My Projects</h2>
+        <div class="article-boxes">
+          <article class="article-box featured-article">
+            <div class="article-textbox">
+              <div>
+                <h3 class="h3">
+                  E-services Website
+                </h3><br>
+                <p class="article-text">
+                  This website is a web application developed by BELLA Fatima Zohra, AMMARA Abderrahmane to provide a
+                  set of digital services to members of the institution.
+                </p>
+              </div>
+              <div class="article-info">
+                <a href="#" class="link" target="_blank" rel="noopener">Github Link</a>
+                <span class="reaction-count">
+                  <a href="#"><i class='bx bxl-github'></i></a>
+                </span>
+              </div>
+            </div>
+            <img class="logo-en" src="logo.png" alt="">
+
+          </article>
+          <article class="article-box">
+            <div class="article-textbox">
+              <div>
+                <h3 class="h4">game using the Qt framework.</h3><br>
+                <p class="article-text">
+                  I've recently developed a game using the Qt framework, which has been an exciting and rewarding
+                  experience. <br><br><br><br><br>
+                </p>
+              </div>
+              <div class="article-info">
+                <a href="https://github.com/BELLAfatimazohra/QT_game" class="link" target="_blank" rel="noopener">Github
+                  link </a>
+                <span class="reaction-count">
+                  <a href="https://github.com/BELLAfatimazohra/QT_game"><i class='bx bxl-github'></i></a>
+                </span>
+              </div>
+            </div>
+          </article>
+          <article class="article-box">
+            <div class="article-textbox">
+              <div>
+                <h3 class="h4">
+                  task management Google extension ✨<br><br>
+                </h3>
+                <p class="article-text">
+                  Our task management Google extension is designed to streamline your daily life. With a user-friendly
+                  and intuitive interface, you can easily create, organize, and track your tasks right from your
+                  browser. <br><br>
+                </p>
+              </div>
+              <div class="article-info">
+                <a href="https://github.com/BELLAfatimazohra/task-management" class="link" target="_blank"
+                  rel="noopener">Github link </a>
+                <span class="reaction-count">
+                  <a href="https://github.com/BELLAfatimazohra/task-management"><i class='bx bxl-github'></i></a>
+                </span>
+              </div>
+            </div>
+          </article>
+          <article class="article-box">
+            <div class="article-textbox">
+              <div>
+                <h3 class="h4"> tribute page .</h3><br><br>
+                <div class="article-text">
+                  I've created a tribute page dedicated to celebrating the life and achievements of an inspiring woman.
+                  Through this webpage, I aim to highlight her remarkable contributions, unwavering determination, and
+                  lasting impact on society .
+                </div>
+              </div>
+              <div class="article-info">
+                <a href="https://github.com/BELLAfatimazohra/CODSOFT-" class="link" target="_blank"
+                  rel="noopener">Github link </a>
+                <span class="reaction-count">
+                  <a href="https://github.com/BELLAfatimazohra/CODSOFT-"><i class='bx bxl-github'></i></a>
+                </span>
+              </div>
+            </div>
+          </article>
+          <article class="article-box">
+            <div class="article-textbox">
+              <div>
+                <h3 class="h4">travel booking platform.</h3><br>
+                <div class="article-text">
+                  My travel booking platform to discover your next adventure with ease. Explore our curated selection
+                  of
+                  destinations, book with confidence, and make memories that last a lifetime. <br><br><br><br>
+                </div>
+              </div>
+              <div class="article-info">
+                <a href="https://github.com/BELLAfatimazohra/CODSOFT-" class="link" target="_blank"
+                  rel="noopener">Github link </a>
+                <span class="reaction-count">
+                  <a href="https://github.com/BELLAfatimazohra/CODSOFT-"><i class='bx bxl-github'></i></a>
+                </span>
+              </div>
+            </div>
+          </article>
+          <article class="article-box">
+            <div class="article-textbox">
+              <div>
+                <h3 class="h4">E-commerce website .</h3><br>
+                <div class="article-text">
+                  An ecommerce website is an online platform where businesses sell products or services to customers
+                  over the internet. <br><br><br><br><br><br><br>
+                </div>
+                <div class="article-info">
+                  <a href="https://github.com/BELLAfatimazohra/ecommerce" class="link" target="_blank"
+                    rel="noopener">Github link </a>
+                  <span class="reaction-count">
+                    <a href="https://github.com/BELLAfatimazohra/ecommerce"><i class='bx bxl-github'></i></a>
+                  </span>
+                </div>
+              </div>
+          </article>
+          <article class="article-box">
+            <div class="article-textbox">
+              <div>
+                <h3 class="h4">Management of bank accounts.</h3><br>
+                <div class="article-text">
+                  Application that allows the management of bank accounts such as account creation, operations such as
+                  deposit, withdrawal, etc... <br> It contains two interfaces: admin and client, each with its own
+                  role and functionalities.
+                </div>
+              </div>
+              <div class="article-info">
+                <a href="https://github.com/BELLAfatimazohra/-Bank-account-managementt" class="link" target="_blank"
+                  rel="noopener">Github link </a>
+                <span class="reaction-count">
+                  <a href="https://github.com/BELLAfatimazohra/-Bank-account-managementt"><i
+                      class='bx bxl-github'></i></a>
+                </span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section id="skills">
+      <!-- Update skills-img src, alt  and title attributes I have added some other logos in assets/images/skill for your convenience feel free to pick one if required  -->
+      <h1 class="skillss"> <span>My</span> Skills</h1><br>
+      <div class="skills" id="Skills">
+
+        <div class="skill1">
+          <ul>
+            <li>UML</li>
+            <li>MERISE</li>
+            <li>Proteus</li>
+            <li>Cisco Packet Tracer</li>
+            <li>Qt creator</li>
+            <li>Lunix</li>
+          </ul>
+        </div>
+        <div class="skill2">
+          <u1>
+            <li>Oracle & MySQL database</li>
+            <li>HTML</li>
+            <li>CSS & Bootstrap</li>
+            <li>C++ language</li>
+            <li>C language</li>
+            <li>JAVA</li>
+          </u1>
+        </div>
+        <div class="skill3">
+          <ul>
+            <li>GIT & GITHUB</li>
+            <li>Python</li>
+            <li>JavaScrip</li>
+            <li>Ajax & Jquery</li>
+            <li>PHP</li>
+            <li>Laravel</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Replace testimonials, author name, author job, img src and, alt attributes -->
+
+    <section id="about">
+      <h1 class="titleabout">About <span>ME</span></h1><br><br>
+      <h2 class="title2">Computer Science Student ✨</h2><br>
+      <p class="txtabout">
+        I am currently a 20-years-old student, studying computer engineering in my third year
+        at ENSA EL HOSEIMA. As part of my academic curriculum and to gain initial exposure to
+        the professional world, I am seeking an opportunity for an internship . I am available
+        for a duration of 3 months.
+        Particularly interested in the field of computer science and eager to pursue a career in
+        this direction, I would like to undertake my internship within the Information Systems
+        department of your company. Joining your team would allow me to affirm my calling
+        and prepare myself for the world of work.</p>
+      <a href="#" class="aboutme " id="about1">More About Me</a>
+      <a href="CV.pdf" download="CV.pdf" class="aboutme ">
+        Download CV
+      </a>
+    </section>
+
+    <section class="contact">
+      <div class="container">
+        <h2 class="h2" id="contact">Send <span>Message</span> </h2>
+        <div class="contact-content">
+          <div class="contact-textbox">
+            <!-- Please comment this component if you're not available for hire -->
+            <strong href="#" class="hire-alert">
+              <span class="indicator"></span>
+              Available for hire
+            </strong>
+            <p class="contact-text">
+              Feel free to contact me if you have any questions, collaboration opportunities, or simply to discuss
+              topics related to computer science and technology. I'm always open to new opportunities and enriching
+              conversations. You can send me a message using this form.
+            </p>
+            <p class="contact-text">
+              Or by emailing me directly at <span class="email"><a
+                  href="mailto:bellafatimazahrae@gmail.com">bellafatimazahrae@gmail.com</a></span>
+            </p>
+
+          </div>
+          <form action="#" class="contact-form" netlify>
+            <div class="form-field">
+              <label for="name">Name :</label>
+              <input type="text" name="name" id="name" required />
+            </div>
+            <div class="form-field">
+              <label for="email">Email :</label>
+              <input type="email" name="email" id="email" required inputmode="email" />
+            </div>
+            <div class="form-field">
+              <label for="message">Enter you Message :</label>
+              <textarea name="message" id="message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-cta">Send</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <!-- Update href and src attributes -->
+        <nav>
+          <ol class="footer-links">
+            <li class="footer-link">
+              <a title="GitHub" href="https://github.com/" target="_blank" rel="noopener"><i
+                  class='bx bxl-github'></i></a>
+            </li>
+            <li class="footer-link">
+              <a title="Linkedin"
+                href="https://www.linkedin.com/in/fatima-zohra-bella-556990296?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B7W5BYycnRmCRYavdfumstA%3D%3D"
+                target="_blank" rel="noopener"><i class='bx bxl-linkedin'></i></a>
+            </li>
+
+          </ol>
+        </nav>
+        <p class="footer-text">
+          &copy; <span>2024</span> - Portfolio designed & developed by <a target="_blank" rel="noopener"
+            href="https://github.com/">BELLA Fatima Zohra.</a>
+        </p>
+        <label class="theme-switch" for="theme-switch">
+          <span>Dark Theme</span>
+          <input type="checkbox" id="theme-switch" role="switch" />
+        </label>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
